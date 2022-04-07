@@ -91,7 +91,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1312,6 +1312,7 @@ label {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  padding-top: 180px;
 }
 
 @media screen and (min-width: 480px) {
