@@ -1,4 +1,5 @@
 .hero {
+  height: 100vh;
   padding: 118px 0;
   background-color: var(--primary-background);
   margin-left: auto;
@@ -69,12 +70,13 @@ min-width: 768px;
     max-width: 360px;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 696px;
+    max-width: 676px;
   }
 }
 
 .hero__title {
-  color: var(--primary-white);
+
+  color:var(--primary-white);
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.06em;

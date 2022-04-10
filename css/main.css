@@ -268,8 +268,8 @@ summary {
 
 :root {
   --primary-text: #757575;
-  --title-text: #212121;
-  --accent: #2196f3;
+  --title-text: #635959;
+  --accent:rgba(8, 121, 143, 0.8);
   --primary-white: #ffffff;
   --primary-background: #2f303a;
   --secondary-background: #f5f4fa;
@@ -282,6 +282,7 @@ summary {
   --backdrop-color: rgba(0, 0, 0, 0.2);
   --modal-border-color: rgba(33, 33, 33, 0.2);
   --placeholder-color: rgba(117, 117, 117, 0.5);
+  --shadow-color:rgba(99, 130, 136, 0.8);
   --grid__item: 1;
 }
 
@@ -750,8 +751,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1236,6 +1236,7 @@ label {
 }
 
 .hero {
+  height: 100vh;
   padding: 118px 0;
   background-color: var(--primary-background);
   margin-left: auto;
@@ -1301,7 +1302,7 @@ label {
 
 @media screen and (min-width: 1200px) {
   .hero__content {
-    max-width: 696px;
+    max-width: 676px;
   }
 }
 
@@ -1406,12 +1407,21 @@ label {
   }
 }
 
+.gallery__title {
+  margin-bottom: 50px;
+}
+
 .gallery__item {
   --grid__item: 3;
 }
 
+.gallery__img {
+  height: 220px;
+}
+
 .gallery__wrapper {
   position: relative;
+  height: 220px;
 }
 
 .gallery__actions {
@@ -1428,9 +1438,16 @@ label {
   line-height: 1.16;
   text-align: center;
   text-transform: uppercase;
-  color: var(--primary-white);
-  background: rgba(47, 48, 58, 0.8);
+  background: var(--shadow-color);
   align-items: center;
+}
+
+.gallery__link {
+  color: var(--primary-white);
+}
+
+.gallery__link:hover, .gallery__link:focus {
+  color: #000000;
 }
 
 .team {
@@ -1515,6 +1532,10 @@ label {
   }
 }
 
+.clients__title {
+  padding-bottom: 15px;
+}
+
 .clients__item {
   --grid__item: 2;
   justify-items: center;
@@ -1547,6 +1568,14 @@ label {
 .clients--socials__link:hover:hover .socials__icon,
 .clients--socials__link:focus .socials__icon {
   fill: var(--accent);
+}
+
+.clients__text {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #3F4E65;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1199px) {

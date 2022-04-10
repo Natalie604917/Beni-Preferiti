@@ -12,6 +12,10 @@
   }
 }
 
+.clients__title{
+  padding-bottom: 15px;
+}
+
 .clients__item {
   --grid__item: 2;
   justify-items: center;
@@ -45,4 +49,12 @@
 .clients--socials__link:hover:hover .socials__icon,
 .clients--socials__link:focus .socials__icon {
   fill: var(--accent);
+}
+
+.clients__text{
+  display: inline-block;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #3F4E65;
+    margin-bottom: 50px;
 }
