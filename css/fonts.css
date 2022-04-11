@@ -1,46 +1,122 @@
 @font-face {
-  font-family: 'TN web use only';
+  font-family: 'Cinzel Bold';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  src: url('../fonts/TN web use only.woff') format('woff'),
-    url('../fonts/TN web use only.woff2') format('woff2');
+  src: url('../fonts/Cinzel\ Bold.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: 'Helvetica';
+  @font-face {
+    font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-display: swap;
-    src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    src: url('../fonts/Cinzel.woff2') format('woff2');
   }
+
   @font-face {
-    font-family: 'Helvetica';
-    font-style: italic;
-    font-weight: 500;
-    font-display: swap;
-    src: url('../fonts/HelveticaNeueCyr-MediumItalic.woff2') format('woff2');
-  }
-  @font-face {
-    font-family: 'Big Caslon';
+    font-family: 'Futura PT Book';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts//Big\ Caslon\ Regular.woff2') format('woff2');
-  }
-  @font-face {
-    font-family: 'neuzeit-grotesk';
-    font-style: normal;
-    
-    font-display: swap;
-    src: url('../fonts/3A2553_2_0.woff2') format('woff2');
+    src: url('../fonts/Futura PT Book.woff') format('woff'),
+    url('../fonts/Futura PT Book.woff2') format('woff2');
   }
 
   @font-face {
-    font-family: 'futura';
+    font-family: 'Futura H';
     font-style: normal;
-    
+    font-weight: 400;
     font-display: swap;
-    src: url('../fonts/3A2553_0_0.woff2') format('woff2');
+    src: url('../fonts/FuturaH.woff') format('woff'),
+    url('../fonts/FuturaH.woff2') format('woff2');
   }
+
+  @font-face {
+    font-family: 'Futura MediumC';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/FuturaMediumC.woff') format('woff'),
+    url('../fonts/FuturaMediumC.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Futura Bold Condensed BT V2';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Futura Bold Condensed BT V2.woff') format('woff'),
+      url('../fonts/Futura Bold Condensed BT V2.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Futura Bold Condensed Italic BT';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Futura Bold Condensed Italic BT.woff') format('woff'),
+      url('../fonts/Futura Bold Condensed Italic BT.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Futura Bold Condensed Italic';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Futura Bold Condensed Italic.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Neuzeit Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Neuzeit Grotesk Regular.woff') format('woff'),
+    url('../fonts/Neuzeit Grotesk Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Neuzeit Grotesk Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('../fonts/Neuzeit Grotesk Bold.woff') format('woff'),
+    url('../fonts/Neuzeit Grotesk Bold.woff2') format('woff2');
+  }
+
+/* ____________________ */
+
+
+@font-face {
+  font-family: 'Aire Bold Pro';
+  font-style: normal;
+ 
+  font-display: swap;
+  src: url('../fonts/Aire\ Bold\ Pro.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Bonbon Bold W00 Regular';
+  font-style: normal;
+ 
+  font-display: swap;
+  src: url('../fonts/Bonbon\ Bold\ W00\ Regular.woff') format('woff'),
+  url('../fonts/Bonbon\ Bold\ W00\ Regular.woff2') format('woff2');
+}
+
+
+
+@font-face {
+  font-family: 'Kennedy Sm Caps Book GD W01 Rg';
+  font-style: normal;
+ 
+  font-display: swap;
+  src: url('../fonts/Kennedy Sm Caps Book GD W01 Rg.woff') format('woff'),
+  url('../fonts/Kennedy Sm Caps Book GD W01 Rg.woff2') format('woff2');
+}
+
+
+
 
