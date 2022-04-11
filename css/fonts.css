@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'TN web use only';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/TN web use only.woff') format('woff'),
+    url('../fonts/TN web use only.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/HelveticaNeueCyr-MediumItalic.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Big Caslon';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts//Big\ Caslon\ Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'neuzeit-grotesk';
+    font-style: normal;
+    
+    font-display: swap;
+    src: url('../fonts/3A2553_2_0.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'futura';
+    font-style: normal;
+    
+    font-display: swap;
+    src: url('../fonts/3A2553_0_0.woff2') format('woff2');
+  }
+
