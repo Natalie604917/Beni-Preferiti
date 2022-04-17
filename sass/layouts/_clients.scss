@@ -8,11 +8,12 @@
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 94px 0;
+    padding-top: 0;
+    padding-bottom: 90px;
   }
 }
 
-.clients__title{
+.clients__title {
   padding-bottom: 15px;
 }
 
@@ -51,10 +52,11 @@
   fill: var(--accent);
 }
 
-.clients__text{
+.clients__text {
   display: inline-block;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #3F4E65;
-    margin-bottom: 50px;
+  color: var(--prime-background);
+  margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 14px;
 }

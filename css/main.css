@@ -303,6 +303,7 @@ summary {
 
 html {
   box-sizing: border-box;
+  font-family: 'Futura PT Book';
 }
 
 *,
@@ -403,7 +404,7 @@ img {
 
 .logo {
   text-decoration: none;
-  font-family: 'Aire Bold Pro',  sans-serif;
+  font-family: "aire" , serif;
   color: var(--accent);
   font-weight: 700;
   font-size: 36px;
@@ -429,7 +430,6 @@ img {
 .filter-primary {
   color: var(--title-text);
   background-color: var(--secondary-background);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -450,7 +450,6 @@ img {
 .filter-secondary {
   color: var(--primary-white);
   background-color: var(--accent);
-  font-family: "Roboto", sans-serif;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -1274,6 +1273,7 @@ label {
 
 @media screen and (max-width: 767.98px) {
   .hero {
+    background-position: right;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/hero/hero.jpg");
     min-width: 320px;
   }
@@ -1415,13 +1415,9 @@ label {
   --grid__item: 3;
 }
 
-.gallery__img {
-  height: 220px;
-}
-
 .gallery__wrapper {
   position: relative;
-  height: 220px;
+  height: 222px;
 }
 
 .gallery__actions {
@@ -1447,7 +1443,7 @@ label {
 }
 
 .gallery__link:hover, .gallery__link:focus {
-  color: #000000;
+  color: var(--accent);
 }
 
 .team {
@@ -1528,7 +1524,8 @@ label {
 
 @media screen and (min-width: 1200px) {
   .clients-section {
-    padding: 94px 0;
+    padding-top: 0;
+    padding-bottom: 90px;
   }
 }
 
@@ -1572,10 +1569,11 @@ label {
 
 .clients__text {
   display: inline-block;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #3F4E65;
+  color: var(--prime-background);
   margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1636,7 +1634,7 @@ label {
 .works__title {
   color: var(--title-text);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
@@ -1799,5 +1797,116 @@ label {
 
 .socials__link--dark:hover, .socials__link--dark:focus {
   background-color: var(--accent);
+}
+
+@media screen and (max-width: 1199px) {
+  .washing_powder {
+    padding: 60px 0;
+  }
+}
+
+.basket {
+  justify-items: center;
+}
+
+.basket__item {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.basket__item:hover, .basket__item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+@media screen and (min-width: 768px) {
+  .basket__item {
+    --grid__item: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .basket__item {
+    --grid__item: 4;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .basket__item {
+    --grid__item: 2;
+    max-width: 450px;
+  }
+}
+
+.basket__link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.basket__link:hover .basket__wrapper::before,
+.basket__link:focus .basket__wrapper::before {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.basket__link:hover .basket__actions,
+.basket__link:focus .basket__actions {
+  opacity: 1;
+}
+
+.basket__title {
+  color: var(--title-text);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.basket__text {
+  color: var(--primary-text);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.basket__content {
+  border: 1px solid var(--card-border-color);
+  padding: 20px 24px;
+}
+
+.basket__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.basket__wrapper::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  background-color: var(--overlay-color);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.basket__actions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size: 18px;
+  line-height: 1.56;
+  width: 322px;
+  color: var(--primary-white);
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
 }
 /*# sourceMappingURL=main.css.map */

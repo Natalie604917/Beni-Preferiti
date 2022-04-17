@@ -11,13 +11,11 @@
 .gallery__item {
   --grid__item: 3;
 }
-.gallery__img{
-  height: 220px;
-}
+
 
 .gallery__wrapper {
   position: relative;
-  height: 220px;
+  height: 222px;
 }
 .gallery__actions {
   display: flex;
@@ -43,7 +41,7 @@
   color: var(--primary-white);
   &:hover,
   &:focus {
-    color:#000000
+    color:var(--accent);
     
 }
 }

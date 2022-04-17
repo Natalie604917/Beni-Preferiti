@@ -85,27 +85,6 @@
     url('../fonts/Neuzeit Grotesk Bold.woff2') format('woff2');
   }
 
-/* ____________________ */
-
-
-@font-face {
-  font-family: 'Aire Bold Pro';
-  font-style: normal;
- 
-  font-display: swap;
-  src: url('../fonts/Aire\ Bold\ Pro.woff2') format('woff2');
-}
-
-
-@font-face {
-  font-family: 'Bonbon Bold W00 Regular';
-  font-style: normal;
- 
-  font-display: swap;
-  src: url('../fonts/Bonbon\ Bold\ W00\ Regular.woff') format('woff'),
-  url('../fonts/Bonbon\ Bold\ W00\ Regular.woff2') format('woff2');
-}
-
 
 
 @font-face {
@@ -117,6 +96,74 @@
   url('../fonts/Kennedy Sm Caps Book GD W01 Rg.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Josefin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-Regular.woff2') format('woff2');
+}
 
+@font-face {
+  font-family: 'Josefin';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-Italic.woff2') format('woff2');
+}
 
+@font-face {
+  font-family: 'Josefin';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-Medium.woff2') format('woff2');
+}
 
+@font-face {
+  font-family: 'Josefin';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Josefin';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Josefin';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-SemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Josefin';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Josefin';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__JosefinSans-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Aire';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../fonts/AnyConv.com__LiÃ¡n\ Types\ -\ AireBoldStd.woff2') format('woff2');
+}
