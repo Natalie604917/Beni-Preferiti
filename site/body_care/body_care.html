@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Стиральные порошки</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="/css/main.min.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
   </head>
 
   <body>
     <header class="page-header">
       <div class="container page-header__container">
         <nav class="navigation">
-          <a href="./index.html" class="logo">
-            Web
-            <span class="header-page__logo">Studio</span>
+          <a href="../index.html" class="logo">
+            Beni
+            <span class="header-page__logo">Preferiti</span>
           </a>
           <button type="button" class="menu-btn" data-menu-button>
             <svg
@@ -24,10 +24,10 @@
               height="40"
               aria-label="Переключатель мобильного меню"
             >
-              <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+              <use class="icon-menu" href="/images/icons.svg#icon-menu"></use>
               <use
                 class="icon-cross"
-                href="./images/icons.svg#icon-mobile-close"
+                href="/images/icons.svg#icon-mobile-close"
               ></use>
             </svg>
           </button>
@@ -35,13 +35,15 @@
         <div class="menu-container" data-menu>
           <ul class="list menu">
             <li class="menu__item">
-              <a class="link menu__link--active" href="./index.html">Студия</a>
+              <a class="link menu__link" href="../index.html">Главная</a>
             </li>
             <li class="menu__item">
-              <a class="link menu__link" href="./portfolio.html">Портфолио</a>
+              <a class="link menu__link--active" href="../portfolio.html">
+                Каталог
+              </a>
             </li>
             <li class="menu__item">
-              <a class="link menu__link" href="./contacts.html">Контакты</a>
+              <a class="link menu__link" href="../contacts.html">Контакты</a>
             </li>
           </ul>
           <div class="mobile-contacts">
@@ -49,7 +51,7 @@
               <li class="contacts__item">
                 <a class="link contacts__link" href="tel:+380961111111">
                   <svg class="contacts__icon" width="10" height="16">
-                    <use href="./images/icons.svg#icon-phone"></use>
+                    <use href="/images/icons.svg#icon-phone"></use>
                   </svg>
                   +38 096 111 11 11
                 </a>
@@ -60,7 +62,7 @@
                   href="mailto:info@devstudio.com"
                 >
                   <svg class="contacts__icon" width="16" height="12">
-                    <use href="./images/icons.svg#icon-envelope"></use>
+                    <use href="/images/icons.svg#icon-envelope"></use>
                   </svg>
                   info@devstudio.com
                 </a>
@@ -122,36 +124,36 @@
           <!-- фильтры -->
           <!-- заголовок, который  будет скрыт с помощью CSS -->
           <h2 class="primary-title visually-hidden">Наши работы</h2>
-
           <div class="filters">
             <ul class="list filters__list">
               <li class="filters__item">
                 <button type="button" class="filter-primary">Все</button>
               </li>
               <li class="filters__item">
-                <button type="button" class="filter-primary">Веб-сайты</button>
+                <button type="button" class="filter-primary">
+                  Средства для стирки
+                </button>
               </li>
               <li class="filters__item">
-                <button type="button" class="filter-primary">Приложения</button>
+                <button type="button" class="filter-primary">
+                  Средства для уборки
+                </button>
               </li>
               <li class="filters__item">
-                <button type="button" class="filter-primary">Дизайн</button>
-              </li>
-              <li class="filters__item">
-                <button type="button" class="filter-primary">Маркетинг</button>
+                <button type="button" class="filter-primary">
+                  Личная гигиена
+                </button>
               </li>
             </ul>
           </div>
-
           <ul class="grid basket">
             <li class="grid__item basket__item">
               <a class="basket__link" href="./">
                 <img
                   class="basket__img"
-                  src="./images/desktop/washing_powder/dash 52_48491.png"
-                  alt="dash 52"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_12393.png"
+                  alt="bianco_puro_100"
                 />
-
                 <div class="basket__content">
                   <h2 class="basket__title">Технокряк</h2>
                   <p class="basket__text">Веб-сайт</p>
@@ -163,10 +165,96 @@
               <a class="basket__link" href="./">
                 <img
                   class="basket__img"
-                  src="./images/desktop/washing_powder/dash 87_80975.png"
-                  alt="dash 87"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_39316.png"
+                  alt="bianco_puro_18"
+                  width="450"
                 />
+                <div class="basket__content">
+                  <h2 class="basket__title">Проект Boxes</h2>
+                  <p class="basket__text">Приложение</p>
+                </div>
+              </a>
+            </li>
 
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_67870.png"
+                  alt="fresco_45"
+                  width="450"
+                />
+                <div class="basket__content">
+                  <h2 class="basket__title">Inspiration has no Borders</h2>
+                  <p class="basket__text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_95211.png"
+                  alt="marsiglia_100"
+                  width="450"
+                />
+                <div class="basket__content">
+                  <h2 class="basket__title">Проект LAB</h2>
+                  <p class="basket__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images//desktop//washing_powder/spuma_di_sciampagna_powder_28986.png"
+                  alt="fresco_22"
+                  width="450"
+                />
+                <div class="basket__content">
+                  <h2 class="basket__title">Проект Prime</h2>
+                  <p class="basket__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_86011.png"
+                  alt="marsiglia_22"
+                  width="450"
+                />
+                <div class="basket__content">
+                  <h2 class="basket__title">Growing Business</h2>
+                  <p class="basket__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/spuma_di_sciampagna_powder_77472.png"
+                  alt="bianco_puro_22"
+                  width="450"
+                />
+                <div class="basket__content">
+                  <h2 class="basket__title">Издание Limited Edition</h2>
+                  <p class="basket__text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item basket__item">
+              <a class="basket__link" href="./">
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/omino_bianco_powder_27384.png"
+                  alt="detersivo_igienizzante"
+                />
                 <div class="basket__content">
                   <h2 class="basket__title">
                     Постер New Orlean vs Golden Star
@@ -178,118 +266,14 @@
 
             <li class="grid__item basket__item">
               <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/washing_powder/dash color__86203.png"
-                    alt="dash color"
-                    width="450"
-                  />
-                </div>
+                <img
+                  class="basket__img"
+                  src="/images/desktop/washing_powder/chante_clair_powder_29109.png.png"
+                  alt="No_cal"
+                  width="450"
+                />
                 <div class="basket__content">
                   <h2 class="basket__title">Ресторан Seafood</h2>
-                  <p class="basket__text">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images//desktop/basket/project4.jpg"
-                    alt="project4"
-                    width="450"
-                  />
-                </div>
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект Prime</h2>
-                  <p class="basket__text">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/basket/project5.jpg"
-                    alt="project5"
-                    width="450"
-                  />
-                </div>
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект Boxes</h2>
-                  <p class="basket__text">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/basket/project6.jpg"
-                    alt="project6"
-                    width="450"
-                  />
-                </div>
-                <div class="basket__content">
-                  <h2 class="basket__title">Inspiration has no Borders</h2>
-                  <p class="basket__text">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/basket/project7.jpg"
-                    alt="project7"
-                    width="450"
-                  />
-                </div>
-                <div class="basket__content">
-                  <h2 class="basket__title">Издание Limited Edition</h2>
-                  <p class="basket__text">Дизайн</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/basket/project8.jpg"
-                    alt="project8"
-                    width="450"
-                  />
-                </div>
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект LAB</h2>
-                  <p class="basket__text">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <div class="basket__wrapper">
-                  <img
-                    class="basket__img"
-                    src="./images/desktop/basket/project9.jpg"
-                    alt="project9"
-                    width="450"
-                  />
-                </div>
-
-                <div class="basket__content">
-                  <h2 class="basket__title">Growing Business</h2>
                   <p class="basket__text">Приложение</p>
                 </div>
               </a>
@@ -348,7 +332,7 @@
                   width="20"
                   height="20"
                 >
-                  <use href="./images/icons.svg#icon-instagram"></use>
+                  <use href="/images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
@@ -364,7 +348,7 @@
                   width="20"
                   height="20"
                 >
-                  <use href="./images/icons.svg#icon-twitter"></use>
+                  <use href="/images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
@@ -380,7 +364,7 @@
                   width="20"
                   height="20"
                 >
-                  <use href="./images/icons.svg#icon-facebook"></use>
+                  <use href="/images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
@@ -396,7 +380,7 @@
                   width="20"
                   height="20"
                 >
-                  <use href="./images/icons.svg#icon-linkedin"></use>
+                  <use href="/images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -421,7 +405,7 @@
                 Подписаться
               </button>
               <svg class="mailing__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send"></use>
+                <use href="/images/icons.svg#icon-icon-send"></use>
               </svg>
             </div>
           </form>
