@@ -116,171 +116,26 @@
     </header>
 
     <main>
-      <section class="section washing_powder">
+      <section class="section card">
         <div class="container">
-          <!-- заголовок, который  будет скрыт с помощью CSS -->
-          <h1 class="main-title visually-hidden">Галерея работ</h1>
+            <div class="card-page__wrapper">
+              <form class="search-form">
+                <label class="search__field">
+                  <input
+                    class="search__input"
+                    type="text"
+                    name="search"
+                    placeholder="Поиск"
+                  />
+                </label>
+                <div class="search__wrapper">
 
-          <!-- фильтры -->
-          <!-- заголовок, который  будет скрыт с помощью CSS -->
-          <h2 class="primary-title visually-hidden">Наши работы</h2>
-          <div class="filters">
-            <ul class="list filters__list">
-              <li class="filters__item">
-                <button type="button" class="filter-primary">Все</button>
-              </li>
-              <li class="filters__item">
-                <button type="button" class="filter-primary">
-                  Средства для стирки
-                </button>
-              </li>
-              <li class="filters__item">
-                <button type="button" class="filter-primary">
-                  Средства для уборки
-                </button>
-              </li>
-              <li class="filters__item">
-                <button type="button" class="filter-primary">
-                  Личная гигиена
-                </button>
-              </li>
-            </ul>
-          </div>
-          <ul class="grid basket">
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/felce_azzurra_glass_12904.png"
-                  alt="multiuso"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Технокряк</h2>
-                  <p class="basket__text">Веб-сайт</p>
+                  <svg class="mailing__icon" width="24" height="24">
+                    <use href="/images/icons.svg#icon-icon-send"></use>
+                  </svg>
                 </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/quasar_glass_57538.png"
-                  alt="formula_originale"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект Boxes</h2>
-                  <p class="basket__text">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/quasar_glass_59296.png"
-                  alt="con_ammoniaca"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Inspiration has no Borders</h2>
-                  <p class="basket__text">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item"> 
-            <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/quasar_glass_23019.png"
-                  alt="spare_vial_ammoniaca"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект LAB</h2>
-                  <p class="basket__text">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images//desktop/glass/quasar_glass_47047.png"
-                  alt="spare_vial_originale"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Проект Prime</h2>
-                  <p class="basket__text">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/vetril_glass_25730.png"
-                  alt="ammoniac"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Growing Business</h2>
-                  <p class="basket__text">Приложение</p>
-                </div>
-              </a>
-            </li>
-            <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/glass/vetril_glass_64992.png"
-                  alt="anti_batterico"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Издание Limited Edition</h2>
-                  <p class="basket__text">Дизайн</p>
-                </div>
-              </a>
-            </li>
-            <!-- <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/cl"
-                  alt="detersivo_igienizzante"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">
-                    Постер New Orlean vs Golden Star
-                  </h2>
-                  <p class="basket__text">Дизайн</p>
-                </div>
-              </a>
-            </li> -->
-
-            <!-- <li class="grid__item basket__item">
-              <a class="basket__link" href="./">
-                <img
-                  class="basket__img"
-                  src="/images/desktop/washing_powder/chante_clair_powder_29109.png.png"
-                  alt="No_cal"
-                  width="450"
-                />
-                <div class="basket__content">
-                  <h2 class="basket__title">Ресторан Seafood</h2>
-                  <p class="basket__text">Приложение</p>
-                </div>
-              </a>
-            </li> -->
-          </ul>
-        </div>
-      </section>
+              </form>
+        </section>
     </main>
     <!-- подвал -->
     <footer class="footer-page">
