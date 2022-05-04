@@ -1,5 +1,6 @@
 .search-form {
     max-width: 570px;
+    margin-bottom: 20px;
   }
   
   label{
@@ -40,6 +41,7 @@
       line-height: 1.25;
       color: var(--footer-accent);
     }
+  
   
       @media screen and (max-width: 767.98px){
       max-width: 450px;
