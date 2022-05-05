@@ -1,6 +1,6 @@
+
 .search-form {
     max-width: 570px;
-    margin-bottom: 20px;
   }
   
   label{
@@ -9,7 +9,7 @@
   
   @media screen and (min-width: 1200px) {
     .search-form  {
-      display: flex;
+      display: inline;
     }
   
     .search__field {
@@ -42,7 +42,6 @@
       color: var(--footer-accent);
     }
   
-  
       @media screen and (max-width: 767.98px){
       max-width: 450px;
     }
@@ -55,11 +54,10 @@
   }
   
 
-  
   .search__icon {
     position: absolute;
-    right: 28px;
-    top: 13px;
+    right: -745px;
+    top: -55px;
     fill: var(--primary-white);
   }
   

@@ -1,6 +1,107 @@
 
-.card-page__wrapper{
+.card-page__container{
 display: flex;
 flex-direction: row;
 width: 100%;
 }
+.card-page__imageThumb{
+    width: 60%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center; 
+}
+
+.card-page__description{
+    // display: flex;
+    width: 40%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: transparent;
+    background-color: rgb(245, 246, 248);
+}
+
+.card-page__buttonThumb{
+height: 40px;
+width: 100%;
+padding-top: 32px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+}
+.card-page__button{
+font-family: inherit;
+position: relative;
+display: block;
+width: 100%;
+height: 48px;
+margin-top: 0px;
+padding-top: 0px;
+padding-right: 15px;
+color: var(--primary-white);
+fill: var(--primary-white);
+letter-spacing: 0.28px;
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+
+background-color: var(--primary-background);
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+
+cursor: pointer;
+}
+
+.card-page__buttonFavoritesThumb{
+position: relative;
+width: 41px;
+height: inherit;
+top: 0px;
+right: 0px;
+margin-left: 12px;
+}
+
+.card-page__favorites{
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+// border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: rgb(192, 193, 198);
+border-right-color: rgb(192, 193, 198);
+border-bottom-color: rgb(192, 193, 198);
+border-left-color: rgb(192, 193, 198);
+
+width: 41px;
+padding-top: 13px;
+padding-right: 7.47px;
+padding-bottom: 5px;
+padding-left: 7.44px;
+}
+
+.card__icon{
+    opacity: 1;
+}
+
+.description-text{
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card-page__title{
+margin: 20px 0;
+}
+
+.card__formThumb{
+margin-bottom: 40px;
+}
+

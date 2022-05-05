@@ -1,276 +1,229 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
-    <link rel="stylesheet" href="/css/main.min.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-  </head>
 
-  <body>
-    <header class="page-header">
-      <div class="container page-header__container">
-        <nav class="navigation">
-          <a href=".../index.html" class="logo">
-            Beni
-            <span class="header-page__logo">Preferiti</span>
-          </a>
-          <button type="button" class="menu-btn" data-menu-button>
-            <svg
-              class="menu-btn__icon"
-              width="40"
-              height="40"
-              aria-label="Переключатель мобильного меню"
-            >
-              <use class="icon-menu" href="/images/icons.svg#icon-menu"></use>
-              <use
-                class="icon-cross"
-                href="/images/icons.svg#icon-mobile-close"
-              ></use>
-            </svg>
-          </button>
-        </nav>
-        <div class="menu-container" data-menu>
-          <ul class="list menu">
-            <li class="menu__item">
-              <a class="link menu__link" href="/index.html">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link--active" href="/portfolio.html">
-                Каталог
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="/css/main.min.css" />
+  <link rel="stylesheet" href="/css/fonts.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container page-header__container">
+      <nav class="navigation">
+        <a href=".../index.html" class="logo">
+          Beni
+          <span class="header-page__logo">Preferiti</span>
+        </a>
+        <button type="button" class="menu-btn" data-menu-button>
+          <svg class="menu-btn__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="/images/icons.svg#icon-menu"></use>
+            <use class="icon-cross" href="/images/icons.svg#icon-mobile-close"></use>
+          </svg>
+        </button>
+      </nav>
+      <div class="menu-container" data-menu>
+        <ul class="list menu">
+          <li class="menu__item">
+            <a class="link menu__link" href=".../index.html">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link--active" href=".../site/portfolio.html">
+              Каталог
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href=".../site/contacts.html">Контакты</a>
+          </li>
+        </ul>
+        <div class="mobile-contacts">
+          <ul class="list contacts">
+            <li class="contacts__item">
+              <a class="link contacts__link" href="tel:+380961111111">
+                <svg class="contacts__icon" width="10" height="16">
+                  <use href="/images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11
               </a>
             </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="/site/contacts.html">Контакты</a>
+            <li class="contacts__item">
+              <a class="link contacts__link contacts__link--mobile" href="mailto:info@devstudio.com">
+                <svg class="contacts__icon" width="16" height="12">
+                  <use href="/images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
             </li>
           </ul>
-          <div class="mobile-contacts">
-            <ul class="list contacts">
-              <li class="contacts__item">
-                <a class="link contacts__link" href="tel:+380961111111">
-                  <svg class="contacts__icon" width="10" height="16">
-                    <use href="/images/icons.svg#icon-phone"></use>
-                  </svg>
-                  +38 096 111 11 11
-                </a>
-              </li>
-              <li class="contacts__item">
-                <a
-                  class="link contacts__link contacts__link--mobile"
-                  href="mailto:info@devstudio.com"
-                >
-                  <svg class="contacts__icon" width="16" height="12">
-                    <use href="/images/icons.svg#icon-envelope"></use>
-                  </svg>
-                  info@devstudio.com
-                </a>
-              </li>
-            </ul>
-            <ul class="list web">
-              <li class="web__item">
-                <a
-                  href="./"
-                  class="link web__link"
-                  target="_blank"
-                  rel="noopener norefferrer"
-                >
-                  Instagram
-                </a>
-              </li>
-              <li class="web__item">
-                <a
-                  href="./"
-                  class="link web__link"
-                  target="_blank"
-                  rel="noopener norefferrer"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li class="web__item">
-                <a
-                  href="./"
-                  class="link web__link"
-                  target="_blank"
-                  rel="noopener norefferrer"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li class="web__item">
-                <a
-                  href="./"
-                  class="link web__link"
-                  target="_blank"
-                  rel="noopener norefferrer"
-                >
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul class="list web">
+            <li class="web__item">
+              <a href="./" class="link web__link" target="_blank" rel="noopener norefferrer">
+                Instagram
+              </a>
+            </li>
+            <li class="web__item">
+              <a href="./" class="link web__link" target="_blank" rel="noopener norefferrer">
+                Twitter
+              </a>
+            </li>
+            <li class="web__item">
+              <a href="./" class="link web__link" target="_blank" rel="noopener norefferrer">
+                Facebook
+              </a>
+            </li>
+            <li class="web__item">
+              <a href="./" class="link web__link" target="_blank" rel="noopener norefferrer">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="section card">
-        <div class="container">
-            <div class="card-page__wrapper">
-              <form class="search-form">
-                <label class="search__field">
-                  <input
-                    class="search__input"
-                    type="text"
-                    name="search"
-                    placeholder="Поиск"
-                  />
-                </label>
-                <div class="search__wrapper">
-
-                  <svg class="search__icon" width="24" height="24">
-                    <use href="/images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </div>
-              </form>
-              <div class="card__description">
-
-              </div>
-
-        </section>
-    </main>
-    <!-- подвал -->
-    <footer class="footer-page">
-      <div class="container footer-page__container">
-        <div class="footer-page__wrapper">
-          <a href="./index.html" class="logo footer">
-            Web
-            <span class="footer-page__logo">Studio</span>
-          </a>
-
-          <address>
-            <ul class="list adds">
-              <li class="adds__item">
-                <a
-                  href="https://goo.gl/maps/BAJuguoc85MBjUrx9"
-                  target="_blank"
-                  rel="noopener norefferrer"
-                  class="link adds__link--light"
-                >
-                  г. Киев, пр-т Леси Украинки, 26
-                </a>
-              </li>
-              <li class="adds__item">
-                <a href="mailto:info@example.com" class="link adds__link">
-                  info@example.com
-                </a>
-              </li>
-              <li class="adds__item">
-                <a href="tel:+380991111111" class="link adds__link">
-                  +38 099 111 11 11
-                </a>
-              </li>
-            </ul>
-          </address>
-        </div>
-
-        <div class="footer-page__wrapper">
-          <p class="footer-page__text">присоединяйтесь</p>
-          <ul class="list socials footer-page__wrapper--socials">
-            <li class="socials__item">
-              <a
-                href="./"
-                class="socials__link socials__link--dark"
-                target="_blank"
-                rel="noopener norefferrer"
-              >
-                <svg
-                  class="socials__icon socials__icon--light"
-                  width="20"
-                  height="20"
-                >
-                  <use href="/images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a
-                href="./"
-                class="socials__link socials__link--dark"
-                target="_blank"
-                rel="noopener norefferrer"
-              >
-                <svg
-                  class="socials__icon socials__icon--light"
-                  width="20"
-                  height="20"
-                >
-                  <use href="/images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a
-                href="./"
-                class="socials__link socials__link--dark"
-                target="_blank"
-                rel="noopener norefferrer"
-              >
-                <svg
-                  class="socials__icon socials__icon--light"
-                  width="20"
-                  height="20"
-                >
-                  <use href="/images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a
-                href="./"
-                class="socials__link socials__link--dark"
-                target="_blank"
-                rel="noopener norefferrer"
-              >
-                <svg
-                  class="socials__icon socials__icon--light"
-                  width="20"
-                  height="20"
-                >
-                  <use href="/images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-page__wrapper">
-          <p class="footer-page__text">Подпишитесь на рассылку</p>
-          <form class="mailing-form">
-            <label class="mailing__field">
-              <input
-                class="mailing__input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
+  <main>
+    <section class="section card">
+      <div class="container">
+        <div class="card__formThumb">
+          <form class="search-form">
+            <label class="search__field">
+              <input class="search__input" type="text" name="search" placeholder="Поиск" />
             </label>
-            <div class="mailing__wrapper">
-              <button
-                class="filter-secondary footer-page__filter-secondary"
-                type="submit"
-              >
-                Подписаться
-              </button>
-              <svg class="mailing__icon" width="24" height="24">
+            <div class="search__wrapper">
+              <svg class="search__icon" width="24" height="24">
                 <use href="/images/icons.svg#icon-icon-send"></use>
               </svg>
             </div>
           </form>
         </div>
+
+        <div class="card-page__container">
+          <div class="card-page__imageThumb">
+            <img  src="/images/desktop/washing_powder/dash_washing_powder_23589@2x.png" alt="DASH">
+          </div>
+          <div class="card-page__description">
+            <h1 class="primary-title card-page__title">
+              CТИРАЛЬНЫЙ ПОРОШОК DASH DET.LAV.SIMPLY 110 СТИРОК 7,15 кг
+            </h1>
+            <h2 class="secondary-title card-page__title">Информация о товаре</h2>
+            <p class="description-text">
+              Dash Colour Frische  стиральный порошок для цветных тканей, обеспечивает яркость вашего цветного белья сохраняется даже после многих стирок и активно защищает от поседения и передачи цвета. Пятна надежно удаляются при первой стирке это делает Dash Color идеальным моющим средством для вас и вашей семьи. Порошок Даш тщательно удаляет грязь и пятна, не укрепляет волокна ткани, что делает ее нежной и мягкой. Придает белью приятный, свежий аромат .Безопасен для цветных вещей, так как сохраняет первозданный цвет изделия. Он обогащен интенсивными формулами, проникающими глубоко в волокна, что делает его еще более эффективным. Формула Frische Color позволяет сохранять лучшие цвета стираемой одежды.  Подходит для стирки в любой стиральной машине, а также для ручной стирки. Содержит активный кислород, благодаря которому порошок проникает в структуру ткани и эффективно удаляет пятна и загрязнения. Подходит для синтетических и смешанных тканей. Устраняет неприятный запах, оставляя свежий и деликатный аромат.
+            </p>
+            <p class="description-text">
+              Эффективно отстирывает в диапазоне температур стирки: 20°C - 65°C, создавая нежную пену, которая покрывает волокна и защищает даже самые тонкие из них от разрушения, а Ваши вещи от изнашивания.
+            </p>
+            <span class="description-text">
+              Рассчитан на 110 стирок.
+            </span>
+             <span class="description-text">
+              Производство: Германия.
+             </span>
+
+             <span class="description-text">
+              Вес: 7,15кг
+             </span>
+            
+            <div class="card-page__buttonThumb">
+              <button class="card-page__button"> В корзину </button>
+              <div class="card-page__buttonFavoritesThumb">
+                <button class="card-page__favorites">
+                  <svg class="card__icon" width="23.91" height="22.67">
+                    <use href="/images/icons.svg#icon-heart"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <!-- подвал -->
+  <footer class="footer-page">
+    <div class="container footer-page__container">
+      <div class="footer-page__wrapper">
+        <a href="./index.html" class="logo footer">
+          Web
+          <span class="footer-page__logo">Studio</span>
+        </a>
+
+        <address>
+          <ul class="list adds">
+            <li class="adds__item">
+              <a href="https://goo.gl/maps/BAJuguoc85MBjUrx9" target="_blank" rel="noopener norefferrer"
+                class="link adds__link--light">
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li class="adds__item">
+              <a href="mailto:info@example.com" class="link adds__link">
+                info@example.com
+              </a>
+            </li>
+            <li class="adds__item">
+              <a href="tel:+380991111111" class="link adds__link">
+                +38 099 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
-    </footer>
-    <script src="./js/mobile-menu.js"></script>
-  </body>
+
+      <div class="footer-page__wrapper">
+        <p class="footer-page__text">присоединяйтесь</p>
+        <ul class="list socials footer-page__wrapper--socials">
+          <li class="socials__item">
+            <a href="./" class="socials__link socials__link--dark" target="_blank" rel="noopener norefferrer">
+              <svg class="socials__icon socials__icon--light" width="20" height="20">
+                <use href="/images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="./" class="socials__link socials__link--dark" target="_blank" rel="noopener norefferrer">
+              <svg class="socials__icon socials__icon--light" width="20" height="20">
+                <use href="/images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="./" class="socials__link socials__link--dark" target="_blank" rel="noopener norefferrer">
+              <svg class="socials__icon socials__icon--light" width="20" height="20">
+                <use href="/images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="./" class="socials__link socials__link--dark" target="_blank" rel="noopener norefferrer">
+              <svg class="socials__icon socials__icon--light" width="20" height="20">
+                <use href="/images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-page__wrapper">
+        <p class="footer-page__text">Подпишитесь на рассылку</p>
+        <form class="mailing-form">
+          <label class="mailing__field">
+            <input class="mailing__input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <div class="mailing__wrapper">
+            <button class="filter-secondary footer-page__filter-secondary" type="submit">
+              Подписаться
+            </button>
+            <svg class="mailing__icon" width="24" height="24">
+              <use href="/images/icons.svg#icon-icon-send"></use>
+            </svg>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/mobile-menu.js"></script>
+</body>
+
 </html>
