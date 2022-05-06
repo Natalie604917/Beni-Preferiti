@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -1231,8 +1232,7 @@ label {
 }
 
 .search__input::placeholder {
-  font-family: Roboto;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
   color: var(--footer-accent);
 }
@@ -1258,8 +1258,8 @@ label {
 .search__icon {
   position: absolute;
   right: -745px;
-  top: -55px;
-  fill: var(--primary-white);
+  top: -52px;
+  fill: var(--footer-accent);
 }
 
 .card-page__container {
@@ -1363,6 +1363,81 @@ label {
 
 .card__formThumb {
   margin-bottom: 40px;
+}
+
+.card-page__image {
+  display: block;
+  max-width: 500%;
+  height: 50%;
+  background-repeat: no-repeat;
+}
+
+/* Styles for text box with more button */
+.holder {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding: 20px;
+}
+
+.limited {
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.limited.l-200 {
+  max-height: 600px;
+}
+
+/* Add your sizes for text box */
+.limited .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.read-more-checker {
+  opacity: 0;
+  position: absolute;
+}
+
+.read-more-checker:checked ~ .limited {
+  max-height: none;
+}
+
+.read-more-checker:checked ~ .limited .bottom {
+  opacity: 0;
+  transition: .3s;
+}
+
+.read-more-checker ~ .read-more-button:before {
+  content: 'Подробнее »';
+}
+
+.read-more-checker:checked ~ .read-more-button:before {
+  content: 'Свернуть «';
+}
+
+.read-more-button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  color: #777;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.card-page__price {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: var(--primary-background);
 }
 
 .grid {
